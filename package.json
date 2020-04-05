@@ -1,0 +1,23 @@
+{
+  "name": "@manladag/types",
+  "version": "0.0.2",
+  "description": "Manladag-types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zepoze/manladag-types.git"
+  },
+  "keywords": [
+    "types"
+  ],
+  "author": "Pierre-Evens Levasseur",
+  "license": "SEE LICENSE IN ./LICENSE",
+  "bugs": {
+    "url": "https://github.com/Zepoze/manladag-types/issues"
+  },
+  "homepage": "https://github.com/Zepoze/manladag-types#readme"
+}
