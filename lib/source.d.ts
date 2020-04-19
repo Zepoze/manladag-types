@@ -1,5 +1,5 @@
 // Declaration needed to create source Interface
-// Works with npm > @manladag/source@1.0.2
+// Works with npm > @manladag/source@1.0.7
 declare interface manga {
     name: string
 }
@@ -9,7 +9,7 @@ declare interface source {
     url: string,
     mangas: { [name:string]: manga },
     getNumberPageChapter(manga:manga,chapter:number):Promise<number>,
-    getUrlPages(manga:manga,chapter:number,numberPage:number):Promise<string[]>,
+    getUrlPages(manga:manga,chapter:number):Promise<string[]>,
     getLastChapter(manga:manga):Promise<number>,
     chapterIsAvailable(manga:manga,chapter:number) : Promise<boolean>
 }
